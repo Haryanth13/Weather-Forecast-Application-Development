@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Weather Forecast</title>
-</head>
-    
     <title>Weather Forecast Application</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
+    <!-- Main Container -->
+    <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-md">
 
-<body class="bg-gray-100">
-    <div class="container mx-auto">
-        <h1 class="text-center text-4xl my-4">Weather Forecast App</h1>
-        <div id="search-container" class="flex justify-center">
-            <input type="text" id="city-input" class="border rounded-l px-4 py-2" placeholder="Enter city name">
-            <button id="search-btn" class="bg-blue-500 text-white rounded-r px-4 py-2">Search</button>
+        <!-- Title -->
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">Weather Forecast</h1>
+
+        <!-- Search Section -->
+        <div class="flex mb-4">
+            <input type="text" id="city-input" class="border rounded-l px-4 py-2 w-full focus:outline-none" placeholder="Enter city name">
+            <button id="search-btn" class="bg-blue-600 text-white px-4 py-2 rounded-r hover:bg-blue-700 focus:outline-none">Search</button>
         </div>
-        <div id="weather-info" class="mt-4 text-center"></div>
-        <div id="forecast" class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8"></div>
+        <button id="current-location-btn" class="bg-green-500 w-full text-white py-2 rounded hover:bg-green-600 focus:outline-none">
+            Use Current Location
+        </button>
+
+        <!-- Weather Info Display -->
+        <div id="weather-info" class="mt-8 text-center"></div>
+
+        <!-- Extended Forecast Display -->
+        <div id="forecast"></div>
+
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
