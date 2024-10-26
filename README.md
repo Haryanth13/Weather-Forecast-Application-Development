@@ -24,9 +24,8 @@ OpenWeatherMap API: Retrieves weather data based on user input or location.
 Setup Instructions
 Clone the Repository:
 
-bash
 Copy code
-git clone https://github.com/yourusername/weather-forecast-application.git
+
 cd weather-forecast-application
 OpenWeatherMap API Key:
 
