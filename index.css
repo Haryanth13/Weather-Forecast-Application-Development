@@ -1,0 +1,50 @@
+/* Custom Styles for Weather Forecast Application */
+
+/* Centering the main weather info container */
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Forecast container for displaying multiple day forecasts */
+#forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* Individual forecast card styles */
+.forecast-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    width: 8rem;
+    text-align: center;
+}
+
+.forecast-card h3 {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.forecast-details {
+    font-size: 0.875rem;
+    color: #374151;
+}
+
+.error-message {
+    color: #e53e3e;
+}
+
+/* Dropdown style */
+#recent-cities-dropdown {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 1rem;
+}
