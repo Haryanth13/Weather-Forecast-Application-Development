@@ -29,8 +29,12 @@ Dark Mode: Adding a dark mode toggle for better user experience.
 Additional Weather Details: Display additional data like sunrise, sunset, and feels-like temperature.
 Offline Mode: Cache previously fetched data for offline access.
 
+*OUTPUT*
+![Image](https://github.com/user-attachments/assets/abee9a92-cc1d-43e0-9244-c402d0894b92)
+
 *Author*
 Developed by Haryanth. If you have any questions, feel free to reach out!
+
 
 
 
