@@ -1,4 +1,6 @@
 *Weather Forecast Application*
+
+
 This project is a Weather Forecast Application that allows users to check the current and extended weather forecasts by city name or based on their current location. The application is built with HTML, JavaScript, Tailwind CSS, and the OpenWeatherMap API.
 
 Link to GitHub Repository: Weather Forecast Application
